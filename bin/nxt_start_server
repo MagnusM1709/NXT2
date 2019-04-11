@@ -47,58 +47,29 @@ async def hello(websocket, path):
         print (name)
         try:
             allowed = False
-            print("1")
             data_json = jason.loads(name)
-            print("1a")
             tempSID = data_json['sid']
-            print("")
-            print("")
-            print("tempSID:\t", tempSID)
-            print("actSID:\t", actSID)
-            print("")
-            print("")
             forward = 0.02 * int(data_json['forward'])
-            print("3")
             turn = 0.02 * int(data_json['turn'])
-            print("4")
             sitetime = int(data_json['time'])
-            print("5")
             if actSID == "localhost" or lastSeen + 10 < time.time():
                 print("new User")
                 actSID = data_json['sid']
                 lastSeen = time.time()
                 allowed = True
-            print("1b")
-            print("tempSID:\t", tempSID)
-            print("actSID:\t", actSID)
-            print("")
-            print("")
             if lastSeen + 10 > time.time() and tempSID == actSID:
                 if turn != 0 or forward != 0:
-                    print("1c")
                     lastSeen = time.time()
-                print("1d")
                 allowed = True
-            print("LastSeen:", lastSeen)
-            print("time:", time.time())
-            print("")
-            print("2")
             forward = 0.02 * int(data_json['forward'])
-            print("3")
             turn = 0.02 * int(data_json['turn'])
-            print("4")
             sitetime = int(data_json['time'])
-            print("5")
             tower = 0
             comptime = time.time()*1000
-            print ("Comptime:", comptime)
-            print ("SiteTime:", sitetime)
-            print ("Ping: ", comptime-sitetime)
             if comptime < sitetime + abs(delay) and allowed:
                 print ("Moving")
                 robo.move(forward, turn, tower)
         except:
-            print("actSID:\t", actSID)
             data_json = jason.loads(name)
             print("except")
 
@@ -189,7 +160,7 @@ if __name__ == '__main__':
         pin=args.secretpin,
         method=args.method
     )
-    print("Args WebMode" + args.webmode)
+    print("Args WebMode:" + args.webmode)
     print('Robo initialized')
     if args.webmode == "True":
         print(robo, type(robo))
