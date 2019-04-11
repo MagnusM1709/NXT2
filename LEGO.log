@@ -1,0 +1,244 @@
+Paketlisten werden gelesen...
+Abhängigkeitsbaum wird aufgebaut....
+Statusinformationen werden eingelesen....
+python3-virtualenv ist schon die neueste Version (15.1.0+ds-1.1).
+libbluetooth-dev ist schon die neueste Version (5.48-0ubuntu3.1).
+0 aktualisiert, 0 neu installiert, 0 zu entfernen und 34 nicht aktualisiert.
+Using base prefix '/usr'
+New python executable in /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/python3
+Also creating executable in /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python3
+Archive:  master.zip
+b29a700bbaf974e2acfefe52c0fc6dc9fd084210
+   creating: nxt-python-master/
+ extracting: nxt-python-master/.gitignore  
+  inflating: nxt-python-master/LICENSE  
+  inflating: nxt-python-master/MANIFEST.in  
+  inflating: nxt-python-master/README.md  
+  inflating: nxt-python-master/convert.log  
+   creating: nxt-python-master/docs/
+  inflating: nxt-python-master/docs/Makefile  
+ extracting: nxt-python-master/docs/favicon.ico  
+  inflating: nxt-python-master/docs/make.bat  
+  inflating: nxt-python-master/docs/nxt_filer.1  
+  inflating: nxt-python-master/docs/nxt_push.1  
+  inflating: nxt-python-master/docs/nxt_test.1  
+  inflating: nxt-python-master/docs/seealso.url  
+   creating: nxt-python-master/docs/source/
+   creating: nxt-python-master/docs/source/api/
+  inflating: nxt-python-master/docs/source/api/brick.rst  
+  inflating: nxt-python-master/docs/source/api/direct.rst  
+  inflating: nxt-python-master/docs/source/api/error.rst  
+  inflating: nxt-python-master/docs/source/api/index.rst  
+  inflating: nxt-python-master/docs/source/api/locator.rst  
+  inflating: nxt-python-master/docs/source/api/motcont.rst  
+  inflating: nxt-python-master/docs/source/api/motor.rst  
+   creating: nxt-python-master/docs/source/api/sensor/
+  inflating: nxt-python-master/docs/source/api/sensor/analog.rst  
+  inflating: nxt-python-master/docs/source/api/sensor/digital.rst  
+  inflating: nxt-python-master/docs/source/api/sensor/generic.rst  
+  inflating: nxt-python-master/docs/source/api/sensor/hitechnic.rst  
+  inflating: nxt-python-master/docs/source/api/sensor/index.rst  
+  inflating: nxt-python-master/docs/source/api/sensor/mindsensors.rst  
+  inflating: nxt-python-master/docs/source/api/system.rst  
+  inflating: nxt-python-master/docs/source/conf.py  
+  inflating: nxt-python-master/docs/source/index.rst  
+  inflating: nxt-python-master/install.bat  
+  inflating: nxt-python-master/install.sh  
+  inflating: nxt-python-master/logo.svg  
+   creating: nxt-python-master/nxt/
+ extracting: nxt-python-master/nxt/.gitignore  
+  inflating: nxt-python-master/nxt/__init__.py  
+  inflating: nxt-python-master/nxt/bluesock.py  
+  inflating: nxt-python-master/nxt/brick.py  
+  inflating: nxt-python-master/nxt/devsock.py  
+  inflating: nxt-python-master/nxt/direct.py  
+  inflating: nxt-python-master/nxt/error.py  
+  inflating: nxt-python-master/nxt/ipsock.py  
+  inflating: nxt-python-master/nxt/lightblueglue.py  
+  inflating: nxt-python-master/nxt/locator.py  
+  inflating: nxt-python-master/nxt/motcont.py  
+  inflating: nxt-python-master/nxt/motor.py  
+   creating: nxt-python-master/nxt/sensor/
+  inflating: nxt-python-master/nxt/sensor/__init__.py  
+  inflating: nxt-python-master/nxt/sensor/analog.py  
+  inflating: nxt-python-master/nxt/sensor/common.py  
+  inflating: nxt-python-master/nxt/sensor/digital.py  
+  inflating: nxt-python-master/nxt/sensor/generic.py  
+  inflating: nxt-python-master/nxt/sensor/hitechnic.py  
+  inflating: nxt-python-master/nxt/sensor/mindsensors.py  
+  inflating: nxt-python-master/nxt/system.py  
+  inflating: nxt-python-master/nxt/telegram.py  
+  inflating: nxt-python-master/nxt/usbsock.py  
+  inflating: nxt-python-master/nxt/utils.py  
+   creating: nxt-python-master/scripts/
+  inflating: nxt-python-master/scripts/nxt_filer  
+  inflating: nxt-python-master/scripts/nxt_push  
+  inflating: nxt-python-master/scripts/nxt_server  
+  inflating: nxt-python-master/scripts/nxt_test  
+  inflating: nxt-python-master/scripts/python-nxt-filer.desktop  
+  inflating: nxt-python-master/setup.py  
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/nxt
+copying nxt/direct.py -> build/lib/nxt
+copying nxt/ipsock.py -> build/lib/nxt
+copying nxt/__init__.py -> build/lib/nxt
+copying nxt/bluesock.py -> build/lib/nxt
+copying nxt/brick.py -> build/lib/nxt
+copying nxt/system.py -> build/lib/nxt
+copying nxt/telegram.py -> build/lib/nxt
+copying nxt/usbsock.py -> build/lib/nxt
+copying nxt/lightblueglue.py -> build/lib/nxt
+copying nxt/devsock.py -> build/lib/nxt
+copying nxt/locator.py -> build/lib/nxt
+copying nxt/error.py -> build/lib/nxt
+copying nxt/motor.py -> build/lib/nxt
+copying nxt/utils.py -> build/lib/nxt
+copying nxt/motcont.py -> build/lib/nxt
+creating build/lib/nxt/sensor
+copying nxt/sensor/__init__.py -> build/lib/nxt/sensor
+copying nxt/sensor/generic.py -> build/lib/nxt/sensor
+copying nxt/sensor/common.py -> build/lib/nxt/sensor
+copying nxt/sensor/mindsensors.py -> build/lib/nxt/sensor
+copying nxt/sensor/hitechnic.py -> build/lib/nxt/sensor
+copying nxt/sensor/digital.py -> build/lib/nxt/sensor
+copying nxt/sensor/analog.py -> build/lib/nxt/sensor
+running build_scripts
+creating build/scripts-3.6
+copying and adjusting scripts/nxt_push -> build/scripts-3.6
+copying and adjusting scripts/nxt_test -> build/scripts-3.6
+copying and adjusting scripts/nxt_server -> build/scripts-3.6
+copying and adjusting scripts/nxt_filer -> build/scripts-3.6
+changing mode of build/scripts-3.6/nxt_push from 644 to 755
+changing mode of build/scripts-3.6/nxt_test from 644 to 755
+changing mode of build/scripts-3.6/nxt_server from 644 to 755
+changing mode of build/scripts-3.6/nxt_filer from 644 to 755
+running install_lib
+creating /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/direct.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/ipsock.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/__init__.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+creating /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/__init__.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/generic.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/common.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/mindsensors.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/hitechnic.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/digital.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/sensor/analog.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor
+copying build/lib/nxt/bluesock.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/brick.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/system.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/telegram.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/usbsock.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/lightblueglue.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/devsock.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/locator.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/error.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/motor.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/utils.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+copying build/lib/nxt/motcont.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/direct.py to direct.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/ipsock.py to ipsock.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/generic.py to generic.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/common.py to common.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/mindsensors.py to mindsensors.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/hitechnic.py to hitechnic.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/digital.py to digital.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/sensor/analog.py to analog.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/bluesock.py to bluesock.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/brick.py to brick.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/system.py to system.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/telegram.py to telegram.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/usbsock.py to usbsock.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/lightblueglue.py to lightblueglue.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/devsock.py to devsock.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/locator.py to locator.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/error.py to error.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/motor.py to motor.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/utils.py to utils.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt/motcont.py to motcont.cpython-36.pyc
+running install_scripts
+copying build/scripts-3.6/nxt_server -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+copying build/scripts-3.6/nxt_test -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+copying build/scripts-3.6/nxt_filer -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+copying build/scripts-3.6/nxt_push -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_server to 755
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_test to 755
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_filer to 755
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_push to 755
+running install_egg_info
+Writing /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/nxt_python-3.0.egg-info
+Collecting pexpect==4.5.0 (from -r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/b9/3c/e51a76fe78a877afd9acd95a51e3b7610c0983b19ef5a5dfa11735a619b8/pexpect-4.5.0-py2.py3-none-any.whl
+Collecting ptyprocess==0.5.2 (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/ff/4e/fa4a73ccfefe2b37d7b6898329e7dbcd1ac846ba3a3b26b294a78a3eb997/ptyprocess-0.5.2-py2.py3-none-any.whl
+Collecting PyBluez==0.22 (from -r requirements.txt (line 3))
+Collecting pygame==1.9.3 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/e4/c7/f57009a23c8f0520031be7042aa78407d88843876b2a504d4990e753fb70/pygame-1.9.3-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pyusb==1.0.2 (from -r requirements.txt (line 5))
+Installing collected packages: ptyprocess, pexpect, PyBluez, pygame, pyusb
+Successfully installed PyBluez-0.22 pexpect-4.5.0 ptyprocess-0.5.2 pygame-1.9.3 pyusb-1.0.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pf_nxt
+copying pf_nxt/nxt_robo.py -> build/lib/pf_nxt
+copying pf_nxt/__init__.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_server.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_cam.py -> build/lib/pf_nxt
+copying pf_nxt/pad_udp.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_pair.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_pad.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_autopilot.py -> build/lib/pf_nxt
+copying pf_nxt/nxt_player.py -> build/lib/pf_nxt
+copying pf_nxt/cam_client.py -> build/lib/pf_nxt
+running build_scripts
+creating build/scripts-3.6
+copying and adjusting bin/nxt_direct -> build/scripts-3.6
+copying and adjusting bin/nxt_start_server -> build/scripts-3.6
+copying and adjusting bin/nxt_start_client -> build/scripts-3.6
+changing mode of build/scripts-3.6/nxt_direct from 644 to 755
+changing mode of build/scripts-3.6/nxt_start_server from 644 to 755
+changing mode of build/scripts-3.6/nxt_start_client from 644 to 755
+running install_lib
+creating /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_robo.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/__init__.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_server.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_cam.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/pad_udp.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_pair.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_pad.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_autopilot.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/nxt_player.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+copying build/lib/pf_nxt/cam_client.py -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_robo.py to nxt_robo.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_server.py to nxt_server.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_cam.py to nxt_cam.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/pad_udp.py to pad_udp.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_pair.py to nxt_pair.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_pad.py to nxt_pad.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_autopilot.py to nxt_autopilot.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/nxt_player.py to nxt_player.cpython-36.pyc
+byte-compiling /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt/cam_client.py to cam_client.cpython-36.pyc
+running install_scripts
+copying build/scripts-3.6/nxt_start_client -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+copying build/scripts-3.6/nxt_start_server -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+copying build/scripts-3.6/nxt_direct -> /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_start_client to 755
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_start_server to 755
+changing mode of /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/bin/nxt_direct to 755
+running install_egg_info
+Writing /home/wsmax95/zeug/EXTREMKRASSERROBO/NXT-master/venv3/lib/python3.6/site-packages/pf_nxt-0.1.egg-info
